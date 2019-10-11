@@ -2,8 +2,8 @@
   "name": "translater",
   "displayName": "translater",
   "description": "english->chinese",
-  "repository":"https://github.com/CodeByZack/vscode-translate",
-  "version": "0.0.1",
+  "repository": "https://github.com/CodeByZack/vscode-translate",
+  "version": "0.0.2",
   "publisher": "zackdk",
   "engines": {
     "vscode": "^1.39.0"
@@ -12,12 +12,12 @@
     "Other"
   ],
   "activationEvents": [
-	"onCommand:extension.translate",
-	"onLanguage:markdown",
-	"onLanguage:html",
-	"onLanguage:javascript",
-  "onLanguage:json",
-  "onLanguage:typescript"
+    "onCommand:extension.translate",
+    "onLanguage:markdown",
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:json",
+    "onLanguage:typescript"
   ],
   "main": "./src/extension.js",
   "contributes": {
