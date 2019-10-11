@@ -15,7 +15,9 @@
 	"onCommand:extension.translate",
 	"onLanguage:markdown",
 	"onLanguage:html",
-	"onLanguage:javascript"
+	"onLanguage:javascript",
+  "onLanguage:json",
+  "onLanguage:typescript"
   ],
   "main": "./src/extension.js",
   "contributes": {
