@@ -2,7 +2,9 @@
   "name": "translater",
   "displayName": "translater",
   "description": "english->chinese",
+  "repository":"https://github.com/CodeByZack/vscode-translate",
   "version": "0.0.1",
+  "publisher": "zackdk",
   "engines": {
     "vscode": "^1.39.0"
   },
