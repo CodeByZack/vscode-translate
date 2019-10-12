@@ -1,7 +1,7 @@
 {
-  "name": "translater",
-  "displayName": "translater",
-  "description": "english->chinese",
+  "name": "empty-translate",
+  "displayName": "空山翻译",
+  "description": "选中单词，悬停1秒，翻译就出来了。。。",
   "repository": "https://github.com/CodeByZack/vscode-translate",
   "version": "0.0.3",
   "publisher": "zackdk",
@@ -11,6 +11,7 @@
   "categories": [
     "Other"
   ],
+  "icon": "image/icon.jpg",
   "activationEvents": [
     "onCommand:extension.translate",
     "onLanguage:javascript"
@@ -32,9 +33,6 @@
         }
       ]
     }
-  },
-  "scripts": {
-    "test": "node ./test/runTest.js"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",
