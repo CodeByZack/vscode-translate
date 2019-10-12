@@ -3,7 +3,7 @@
   "displayName": "空山翻译",
   "description": "选中单词，悬停1秒，翻译就出来了。。。",
   "repository": "https://github.com/CodeByZack/vscode-translate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "zackdk",
   "engines": {
     "vscode": "^1.39.0"
