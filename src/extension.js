@@ -15,7 +15,6 @@ function activate(context) {
 		let editor =  vscode.window.activeTextEditor;
 		let msg = getSelectText(editor);
 		const res = await translate(msg);
-		console.log(res);
 		vscode.window.showInformationMessage(msg+ ":" +res);
 	});
 
