@@ -8,20 +8,24 @@
   "engines": {
     "vscode": "^1.39.0"
   },
+  "scripts": {
+    "pr" : "prettier --write './src/**/*.js'"
+  },
   "categories": [
     "Other"
   ],
   "icon": "image/icon.jpg",
   "activationEvents": [
     "onCommand:extension.translate",
-    "onLanguage:javascript"
+    "onLanguage:javascript",
+    "onLanguage:typescript"
   ],
   "main": "./src/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "extension.translate",
-        "title": "翻译（英->中）"
+        "title": "翻译"
       }
     ],
     "menus": {
@@ -42,6 +46,7 @@
     "eslint": "^5.13.0",
     "glob": "^7.1.4",
     "mocha": "^6.1.4",
+    "prettier": "1.18.2",
     "typescript": "^3.3.1",
     "vscode-test": "^1.2.0"
   },
