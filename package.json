@@ -3,13 +3,13 @@
   "displayName": "空山翻译",
   "description": "选中单词，悬停1秒，翻译就出来了。。。",
   "repository": "https://github.com/CodeByZack/vscode-translate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "zackdk",
   "engines": {
     "vscode": "^1.39.0"
   },
   "scripts": {
-    "pr" : "prettier --write './src/**/*.js'"
+    "pr": "prettier --write './src/**/*.js'"
   },
   "categories": [
     "Other"
